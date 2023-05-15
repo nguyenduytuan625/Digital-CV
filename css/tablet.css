@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+    .navbar-nav li, .navbar-nav li:first-child {
+        border: 0;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .goals {
+        order: 1;
+    }
+    .scopes {
+        order: 2;
+    }
+    .team {
+        order: 3;
+    }
+    .primary {
+        order: 4;
+    }
+    .timeline {
+        order: 5;
+    }
+    #charter .w-20 {
+        width: 100%;
+        margin-right: 0;
+    }
+}

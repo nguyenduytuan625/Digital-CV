@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #0d6efd;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --secondary-color: #6c757d;
+    --gray-700: #495057;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
+    background-size: cover;
+    height: 450px;
+}
+
+.text-gray {
+    color: var(--gray-400);
+}
+
+.nav-icon {
+    width: 12px;
+    height: 12px;
+    fill: var(--primary-color);
+}
+
+.card-icon {
+    stroke: var(--secondary-color);
+    stroke-width: 1;
+}
+
+.text-bg {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.text-xs {
+    font-size: 12px;
+    line-height: 0.9;
+}
+
+#job-info h5 {
+    position: relative;
+}
+
+#job-info h5::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    border: 5px solid var(--primary-color);
+    border-radius: 50%;
+    display: block;
+}
+
+.hobby-icon {
+    width: 50%;
+    stroke: var(--primary-color);
+}
+
+.bars {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.bar {
+    width: 40px;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.bar-fill {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.icon-1 {
+    width: 12px;
+    height: 12px;
+    fill: var(--gray-700);
+}
+
+.icon-2 {
+    width: 12px;
+    height: 12px;
+    stroke: var(--gray-700);
+}
+
+#project .list-group {
+    border-radius: 0;
+}
+
+#footer .icons {
+    gap: 3rem;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#charter h3 {
+    border-bottom: 1px solid var(--gray-400);
+}
+
+#charter .bd {
+    border-bottom: 1px solid var(--gray-300);
+}
+
+#charter .number {
+    background-color: violet;
+    border: 1px solid var(--gray-700);
+    color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.9;
+    margin-right: 0.5rem;
+}
+
+#charter .text {
+    border-bottom: 1px dotted var(--primary-color);
+}
