@@ -28,8 +28,7 @@
 }
 
 .card-icon {
-    stroke: var(--secondary-color);
-    stroke-width: 1;
+    color: var(--gray-500);
 }
 
 .text-bg {
